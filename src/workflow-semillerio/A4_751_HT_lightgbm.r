@@ -73,11 +73,11 @@ PARAM$bo_lgb <- makeParamSet(
   makeNumericParam("learning_rate", lower = 0.02, upper = 0.3),
   makeNumericParam("feature_fraction", lower = 0.01, upper = 1.0),
   makeIntegerParam("num_leaves", lower = 8L, upper = 1024L),
-  makeIntegerParam("min_data_in_leaf", lower = 100L, upper = 50000L,
+  makeIntegerParam("min_data_in_leaf", lower = 100L, upper = 50000L),
   makeNumericParam("lambda_l1", lower = 150, upper = 300),
   makeNumericParam("lambda_l2", lower = 250, upper = 400),
   makeNumericParam("min_gain_to_split", lower = 0, upper = 10),
-  makeNumericParam("pos_bagging_fraction", lower = 0.5, upper = 1))
+  makeNumericParam("pos_bagging_fraction", lower = 0.5, upper = 1)
 )
 
 
