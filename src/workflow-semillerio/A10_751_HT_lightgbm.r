@@ -53,7 +53,7 @@ PARAM$lgb_basicos <- list(
   lambda_l1 = 0.0, # lambda_l1 >= 0.0
   lambda_l2 = 0.0, # lambda_l2 >= 0.0
   max_bin = 31L, # lo debo dejar fijo, no participa de la BO
-  #num_iterations = 9999, # un numero muy grande, lo limita early_stopping_rounds
+  num_iterations = 9999, # un numero muy grande, lo limita early_stopping_rounds
 
   bagging_fraction = 1.0, # 0.0 < bagging_fraction <= 1.0
   pos_bagging_fraction = 1.0, # 0.0 < pos_bagging_fraction <= 1.0
@@ -75,7 +75,7 @@ PARAM$lgb_basicos <- list(
 #  en la Bayesian Optimization
 PARAM$bo_lgb <- makeParamSet(
   makeNumericParam("learning_rate", lower = 0.02, upper = 0.3),
-  makeNumericParam("num_iterations", lower = 200, upper = 3000),
+  #makeNumericParam("num_iterations", lower = 200, upper = 3000),
   makeNumericParam("feature_fraction", lower = 0.01, upper = 1.0),
   makeIntegerParam("num_leaves", lower = 8L, upper = 1024L),
   makeIntegerParam("min_data_in_leaf", lower = 100L, upper = 50000L)
