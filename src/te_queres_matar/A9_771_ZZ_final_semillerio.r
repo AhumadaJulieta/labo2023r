@@ -30,7 +30,7 @@ PARAM$modelos_rank <- c(1)
 # cantidad de semillas a utilizar en el semillerio,
 #  podrian ser 50 o 100 para mayor estabilidad
 #  semillerio <- 1  es el ZZ_final  tradicional
-PARAM$semillerio <- 9  #inicialmente puse semillerio 50 pero el hibrido (archivo H5) lo realice con el archivo que se genero cuando iba por el semillerio 9 
+PARAM$semillerio <- 5  #inicialmente puse semillerio 50 pero el hibrido (archivo H4) lo realice con el archivo que se genero cuando iba por el semillerio 5 
 
 # se utiliza para generar el vector de  PARAM$semillerio  semillas
 PARAM$semilla_primos <- 251033
