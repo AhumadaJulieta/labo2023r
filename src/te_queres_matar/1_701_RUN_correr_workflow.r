@@ -11,8 +11,6 @@ options(error = function() {
 source("~/labo2023r/src/trabajo-final/A2_711_CA_reparar_dataset.r")
 source("~/labo2023r/src/trabajo-final/A2_721_DR_corregir_drifting.r")
 source("~/labo2023r/src/trabajo-final/A2_731_FE_historia.r")
-source("~/labo2023r/src/trabajo-final/A2_741_TS_training_strategy.r")
-source("~/labo2023r/src/trabajo-final/A2_751_HT_lightgbm.r")
 source("~/labo2023r/src/trabajo-final/A8_741_TS_training_strategy.r")
 source("~/labo2023r/src/trabajo-final/A8_751_HT_lightgbm.r")
 source("~/labo2023r/src/trabajo-final/A8_771_ZZ_final_semillerio.r")
